@@ -19,6 +19,7 @@ gem 'paperclip', git:"git://github.com/thoughtbot/paperclip.git"
 gem 'jquery-turbolinks', '~> 2.1'
 gem 'masonry-rails', '~> 0.2.4'
 
+gem 'aws', '~> 2.10', '>= 2.10.2'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
