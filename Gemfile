@@ -18,7 +18,7 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'paperclip', git:"git://github.com/thoughtbot/paperclip.git"
 gem 'jquery-turbolinks', '~> 2.1'
 gem 'masonry-rails', '~> 0.2.4'
-
+gem 'imagesLoaded_rails'
 
 gem 'aws-sdk', '< 3.0'
 # Use Puma as the app server

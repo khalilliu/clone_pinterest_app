@@ -4,7 +4,11 @@
 
 $ => 
   window.onresize = fitimage
-  $('#pins').imagesLoaded(fitimage)
+  $('#pins').imagesLoaded ->
+    $('#pins').masonry
+      itemSelector: '.box'
+      isFitWidth: true
+    
     
     
     
