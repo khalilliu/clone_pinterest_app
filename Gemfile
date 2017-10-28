@@ -20,6 +20,9 @@ gem 'jquery-turbolinks', '~> 2.1'
 gem 'masonry-rails', '~> 0.2.4'
 gem 'imagesLoaded_rails'
 
+gem 'will_paginate', '~> 3.1', '>= 3.1.6'
+gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.1'
+
 gem 'aws-sdk', '< 3.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
