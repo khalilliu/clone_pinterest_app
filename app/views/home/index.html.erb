@@ -1,5 +1,5 @@
 <div class="jumbotron center">
-  <h2>welcome to my pinterest, <%= current_user.name.truncate(12) if current_user %></h2>
+  <h2>welcome to my pinterest, <%#= current_user.name if current_user %></h2>
   <p>Find me in app/views/home/index.html.erb</p>
   <% if user_signed_in? %>
     <%= link_to "List Pins", pins_path,class:'btn btn-default' %>
