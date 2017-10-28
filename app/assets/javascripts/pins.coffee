@@ -3,7 +3,12 @@
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
 $ => 
-  $('#pins').imagesLoaded ->
-    $('#pins').masonry
-      itemSelector: '.box'
-      isFitWidth: true
+  window.onresize = fitimage
+  $('#pins').imagesLoaded(fitimage)
+    
+    
+    
+fitimage = () ->
+  $('#pins').masonry
+    itemSelector: '.box'
+    isFitWidth: true
